@@ -120,7 +120,7 @@ namespace Google.XR.ARCoreExtensions
                             false);
 #elif ARCORE_USE_ARF_4 // use ARF 4
                         anchor.transform.SetParent(
-                            ARCoreExtensions._instance.SessionOrigin.trackablesParent,
+                            ARCoreExtensions._instance.SessionOrigin.TrackablesParent,
                             false);
 #else // ARF error
 #error error must define ARCORE_USE_ARF_5 or ARCORE_USE_ARF_4

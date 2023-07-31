@@ -36,7 +36,7 @@ namespace Google.XR.ARCoreExtensions
     using Unity.XR.CoreUtils;
 #endif
     using UnityEngine;
-
+    using Unity.XR.CoreUtils;
 #if UNITY_ANDROID
     using UnityEngine.XR.ARCore;
 #endif // UNITY_ANDROID
@@ -69,7 +69,7 @@ namespace Google.XR.ARCoreExtensions
         /// <summary>
         /// AR Foundation <c><see cref="ARSessionOrigin"/></c> used by the scene.
         /// </summary>
-        public ARSessionOrigin SessionOrigin;
+        public XROrigin SessionOrigin;
 
         /// <summary>
         /// AR Foundation <c><see cref="ARCameraManager"/></c> used in the ARSessionOrigin.
