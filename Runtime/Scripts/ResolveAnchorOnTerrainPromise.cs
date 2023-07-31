@@ -107,7 +107,7 @@ namespace Google.XR.ARCoreExtensions
 
                         // Parent the new Geospatial Terrain anchor to the session origin.
                         anchor.transform.SetParent(
-                            ARCoreExtensions._instance.SessionOrigin.trackablesParent,
+                            ARCoreExtensions._instance.SessionOrigin.TrackablesParent,
                             false);
                         anchor.Update();
                     }
